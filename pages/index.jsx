@@ -9,6 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       Hello
+      <i className="fa-solid fa-phone"></i>
     </div>
   );
 }
