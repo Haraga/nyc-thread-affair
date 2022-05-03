@@ -18,13 +18,13 @@ export default function Test() {
       </div>
 
       <div className="mt-4">
-        <span className="badge">new entry</span>
+        <span className="badge">-50%</span>
 
         <span className="badge badge-font-large">%</span>
 
         <span className="badge badge-secondary">new entry</span>
 
-        <span className="badge badge-secondary badge-font-large">%</span>
+        <span className="badge badge-secondary badge-font-large">-5%</span>
       </div>
     </div>
   );
