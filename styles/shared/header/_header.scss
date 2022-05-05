@@ -55,4 +55,26 @@
       width: 87px;
     }
   }
+
+  @include media-breakpoint-up(lg) {
+    &-connect {
+      grid-column: 1 / span 1;
+      grid-row: 1 / span 1;
+      justify-self: start;
+      align-self: center;
+
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        li:first-child {
+          i[class*='fa-'] {
+            font-size: 24px;
+            color: $brand-primary;
+          }
+        }
+      }
+    }
+  }
 }
