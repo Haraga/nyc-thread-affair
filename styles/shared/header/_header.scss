@@ -38,6 +38,10 @@
         color: $brand-primary;
       }
     }
+
+    @include media-breakpoint-up(lg) {
+      flex-direction: row;
+    }
   }
 
   &-logo {
@@ -53,6 +57,14 @@
 
     img {
       width: 87px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      grid-row: 2 / span 1;
+
+      img {
+        width: unset;
+      }
     }
   }
 
