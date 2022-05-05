@@ -59,7 +59,7 @@ export default function Header() {
         </div>
       </section>
 
-      <section className="header-primary">
+      <section className="header-primary d-none d-lg-block">
         <nav className="nav-primary">
           <ul>
             <li>
