@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="header container mt-4">
+    <header className="header container mt-0 mt-lg-4">
       <section className="header-secondary d-flex justify-content-between">
         <div className="header-connect">
           <ul>
@@ -35,9 +35,69 @@ export default function Header() {
             </a>
           </section>
         </div>
+
+        <div className="header-logo text-center">
+          <img src="/images/logo.jpg" alt="Thread Affair - Logo"></img>
+        </div>
       </section>
 
-      <section className="header-primary"></section>
+      <section className="header-primary">
+        <nav className="nav-primary">
+          <ul>
+            <li>
+              <a href="" title="Costume">
+                Costume
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="Costume">
+                Costume
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="Costume">
+                Costume
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="Costume">
+                Costume
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav className="nav-secondary">
+          <ul>
+            <li>
+              <a href="" title="Office suits">
+                Office suits
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="Office suits">
+                Office suits
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="Office suits">
+                Office suits
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="Office suits">
+                Office suits
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </header>
   );
 }
