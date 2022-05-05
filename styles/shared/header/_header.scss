@@ -8,6 +8,7 @@
   &-search {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
+    justify-self: start;
     align-self: center;
 
     ul {
@@ -16,6 +17,24 @@
       font-size: 24px;
 
       li:first-child {
+        color: $brand-primary;
+      }
+    }
+  }
+
+  &-controls {
+    grid-column: 2 / -1;
+    grid-row: 1 / span 1;
+    justify-self: end;
+    align-self: center;
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 16px;
+
+    .cart-controls {
+      .cart-qty {
         color: $brand-primary;
       }
     }
