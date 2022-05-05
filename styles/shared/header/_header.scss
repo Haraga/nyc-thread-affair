@@ -43,6 +43,13 @@
   &-logo {
     grid-column: 1 / -1;
     grid-row: 1 / span 1;
+    // stop clicking on this div
+    pointer-events: none;
+
+    & > a {
+      // only click on anchor
+      pointer-events: all;
+    }
 
     img {
       width: 87px;

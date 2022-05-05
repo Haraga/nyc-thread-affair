@@ -53,7 +53,9 @@ export default function Header() {
         </div>
 
         <div className="header-logo text-center">
-          <img src="/images/logo.jpg" alt="Thread Affair - Logo"></img>
+          <a href="https://nbc.com">
+            <img src="/images/logo.jpg" alt="Thread Affair - Logo"></img>
+          </a>
         </div>
       </section>
 
